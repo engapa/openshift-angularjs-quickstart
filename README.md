@@ -69,3 +69,5 @@ In order to add this quickstart to available quickstarts on web console you shou
     "admin_tags":[]
     }}
 
+Notes
+=====
