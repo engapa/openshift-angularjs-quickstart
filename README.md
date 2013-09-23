@@ -68,3 +68,7 @@ In order to add this quickstart to available quickstarts on web console you shou
     "provider":"partner",
     "admin_tags":[]
     }}
+<<<<<<< HEAD
+=======
+
+>>>>>>> branch 'master' of git@pdihub.hi.inet:egp30/openshift-angularjs-quickstart.git
