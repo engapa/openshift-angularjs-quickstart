@@ -1,5 +1,5 @@
-openshift-angularjs-quickstart
-==============================
+PDI OpenShift - Angularjs Quickstart
+====================================
 
 This git repository helps you get up and running quickly a AngularJS
 installation on OpenShift.  The AngularJS project name used in this repo
@@ -49,10 +49,10 @@ That's it, click on the link. You can now checkout your application at:
 
     http://angularjs-$yournamespace.ose.hi.inet
 
-Store JSON for use it on web console (Only Administrator of PDI-OpenShift)
+Quickstart available on web console (Only Administrator of PDI-OpenShift)
 --------------------------------------------------------------------------
 
-In order to add this quickstart to available quickstarts on web console you shoud add this entry to file ´´/etc/openshift/quickstarts.json´´ :
+In order to add this quickstart to available quickstarts on web console you shoud add this entry to file ''/etc/openshift/quickstarts.json'' :
 
     {"quickstart": {
     "id":"1",
@@ -69,5 +69,3 @@ In order to add this quickstart to available quickstarts on web console you shou
     "admin_tags":[]
     }}
 
-Notes
-=====
