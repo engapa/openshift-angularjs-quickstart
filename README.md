@@ -8,7 +8,7 @@ is 'angularjs' but you can feel free to change it.
 Running on OpenShift by RHC
 ---------------------------
 
-Create an account at [PDI-OpenShift](http://broker.ose.hi.inet/) or contact with [support team](mailto://engapa@aurigae.com).
+Create an account at [PDI-OpenShift](http://broker.ose.hi.inet/) or contact with [support team](mailto:engapa@aurigae.com).
 
 Install the RHC client tools if you have not already done so:
     
@@ -37,7 +37,7 @@ That's it, click on the link. You can now checkout your application at:
 Running on OpenShift by Web console
 -----------------------------------
 
-Create an account at [PDI-OpenShift](http://broker.ose.hi.inet/) or contact with [support team](mailto://engapa@aurigae.com).
+Create an account at [PDI-OpenShift](http://broker.ose.hi.inet/) or contact with [support team](mailto:engapa@aurigae.com).
 
 Login on web console :  http://broker.ose.hi.inet/
 
