@@ -49,3 +49,23 @@ That's it, click on the link. You can now checkout your application at:
 
     http://angularjs-$yournamespace.ose.hi.inet
 
+Store JSON for use it on web console (Only Administrator of PDI-OpenShift)
+--------------------------------------------------------------------------
+
+In order to add this quickstart to available quickstarts on web console you shoud add this entry to file ´´/etc/openshift/quickstarts.json´´ :
+
+    {"quickstart": {
+    "id":"1",
+    "href":"https://broker.ose.hi.inet/quickstarts/angularjs",
+    "name":"AngularJS on OpenShift",
+    "summary":"This git repository demonstrates how to use AngularJS on OpenShift using Tomcat7.",
+    "body":"<p>This git repository demonstrates how to use AngularJS on OpenShift using Tomcat7.",
+    "cartridges":"jbossews-2.0",
+    "website":"http://angularjs.com",
+    "tags":"partner, tomcat, javascript",
+    "language":"Web",
+    "initial_git_url":"https://pdihub.com/egp30/openshift-angularjs-quickstart.git",
+    "provider":"partner",
+    "admin_tags":[]
+    }}
+
