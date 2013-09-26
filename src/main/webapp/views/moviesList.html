@@ -1,0 +1,30 @@
+<h2>Movies</h2>
+
+<p>
+<strong>Find</strong>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+Title: <input ng-model="query.title">
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<strong>Sorter</strong>
+ <select ng-model="orderField">
+ 		<option value="title">Title</option>
+        <option value="ditrector">Director</option>
+    </select>
+    <select ng-model="orderReverse">
+ 		<option value="false">upward</option>
+        <option value="true">downward</option>
+    </select>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+  
+<span class="mini">{{var1}}</span>
+</p>
+ 
+<ul>
+    <li ng-repeat="obj in movies | filter:query | orderBy:orderField:orderReverse">
+    	<div ng-include src=" 'views/_movieDetail.html' "></div>
+    </li>
+</ul>

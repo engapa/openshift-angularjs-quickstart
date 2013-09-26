@@ -1,0 +1,42 @@
+[
+   {
+	 "id": "1",
+	 "title": "Elysium",
+	 "writer": "Neill Blomkamp",
+	 "director": "Neill Blomkamp",
+	 "date": "09/08/2013",
+	 "starts": "Matt Damon, Jodie Foster, Sharlto Copley",
+	 "description": "Set in the year 2154, where the very wealthy live on a man-made space station while the rest of the population resides on a ruined Earth, a man takes on a mission that could bring equality to the polarized worlds.",
+	 "img": "images/movie1.jpg"
+	},
+	{
+	 "id": "2",
+	 "title": "Source Code",
+	 "writer": "Ben Ripley",
+	 "director": "Duncan Jones",
+	 "date": "06/04/2011",
+	 "starts": "Jake Gyllenhaal, Michelle Monaghan, Vera Farmiga",
+	 "description": "An action thriller centered on a soldier who wakes up in the body of an unknown man and discovers he's part of a mission to find the bomber of a Chicago commuter train.",
+	 "img": "images/movie2.jpg"
+	},
+	{
+	 "id": "3",
+	 "title": "Extracted",
+	 "writer": "Nir Paniry",
+	 "director": "Nir Paniry",
+	 "date": "16/12/2012",
+	 "starts": "Sasha Roiz, Jenny Mollen, Dominic Bogart",
+	 "description": "A scientist who has invented a technique to watch people's memories finds himself in a dangerous situation after he's tasked with entering a heroin addict's mind to see whether the man committed murder.",
+	 "img": "images/movie3.jpg"
+	},
+	{
+	 "id": "4",
+	 "title": "Moon",
+	 "writer": "Duncan Jones",
+	 "director": "Duncan Jones",
+	 "date": "16/09/2009",
+	 "starts": "Sam Rockwell, Kevin Spacey, Dominique McElligott",
+	 "description": "Astronaut Sam Bell has a quintessentially personal encounter toward the end of his three-year stint on the Moon, where he, working alongside his computer, GERTY, sends back to Earth parcels of a resource that has helped diminish our planet's power problems.",
+	 "img": "images/movie4.jpg"
+	},
+]
