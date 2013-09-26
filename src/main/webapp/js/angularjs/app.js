@@ -15,7 +15,7 @@ angular.module('app', []).
 		  templateUrl: 'views/movie.html',
 		  controller: MovieDetailController
 		  }).
-	 
+
 	  //redirect to default route  
       otherwise({
 		  redirectTo: '/movies'});
