@@ -4,14 +4,14 @@
 <strong>Find</strong>
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-Title: <input ng-model="query.title">
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-<strong>Sorter</strong>
+Title: <input ng-model="query.title" placeholder="Title..."/>
+Director: <input ng-model="query.director" placeholder="Director..."/>
+</p>
+<p>
+<strong>Order by</strong>
  <select ng-model="orderField">
  		<option value="title">Title</option>
-        <option value="ditrector">Director</option>
+        <option value="director">Director</option>
     </select>
     <select ng-model="orderReverse">
  		<option value="false">upward</option>
@@ -20,7 +20,6 @@ Title: <input ng-model="query.title">
 
 &nbsp;&nbsp;&nbsp;&nbsp;
   
-<span class="mini">{{var1}}</span>
 </p>
  
 <ul>

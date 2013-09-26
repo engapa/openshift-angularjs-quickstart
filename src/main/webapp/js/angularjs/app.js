@@ -10,7 +10,7 @@ angular.module('app', []).
 		  controller: MoviesListController
 		  }).
 	  
-	  //Define parameter by (:)
+	  //Define routeParam by (:)
       when('/movies/:movieId', {
 		  templateUrl: 'views/movie.html',
 		  controller: MovieDetailController

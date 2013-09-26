@@ -2,15 +2,12 @@
 * MoviesListController
 * Movies list controller
 */
-function LibrosListController($scope, $http) {
+function MoviesListController($scope, $http) {
   $http.get('data/movies.json').success(function(data) {
 	$scope.movies = data;
   });
- 
-  //variable
-  $scope.var1 = "variable definida desde el controlador";
-  
-  //Combo box for sorting movies
+   
+  //Combo box for ordering movies
   $scope.orderField = "title";
   $scope.orderReverse = "true";
 }

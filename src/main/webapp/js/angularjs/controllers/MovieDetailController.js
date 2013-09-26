@@ -7,10 +7,9 @@
 */
 function MovieDetailController($scope, $http, $routeParams) {
   $scope.id = $routeParams.movieId;
-  $scope.movie = $scope.movies[$scope.id];
-
-  //$http.get('data/movie'+$scope.id+'.json').success(function(data) {
-	//  $scope.movie = data[$scope.id];
-  //});
+  
+  $http.get('data/movies.json').success(function(data) {
+	  $scope.movie = data[$scope.id];
+  });
  
 }
