@@ -2,7 +2,7 @@
 /.*
 .*
 *~
-!.gitignore
+!.git*
 !.openshift/
 
 #Binaries
