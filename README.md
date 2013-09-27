@@ -1,5 +1,6 @@
 PDI OpenShift - Tomcat+Angularjs Quickstart
 ===========================================
+***
 
 This git repository helps you get up and running quickly a AngularJS
 installation on OpenShift.  The AngularJS project name used in this repo
@@ -21,7 +22,7 @@ Create a web application
 Add this upstream repo
 
     cd angularjs
-    git remote add upstream -m master git://pdihub.com/egp30/openshift-angularjs-quickstart.git
+    git remote add upstream -m master https://github.com/engapa/openshift-angularjs-quickstart.git
     git pull -s recursive -X theirs upstream master
 
 Then push the repo upstream
@@ -60,12 +61,12 @@ or in your REST service provider:
     "href":"https://broker.ose.hi.inet/quickstarts/angularjs",
     "name":"AngularJS on OpenShift",
     "summary":"This git repository demonstrates how to use AngularJS on OpenShift using Tomcat7.",
-    "body":"<p>This git repository demonstrates how to use AngularJS on OpenShift using Tomcat7.",
+    "body":"This git repository demonstrates how to use AngularJS on OpenShift using Tomcat7.",
     "cartridges":"jbossews-2.0",
     "website":"http://angularjs.com",
     "tags":"tomcat, javascript, angular",
     "language":"Java",
-    "initial_git_url":"https://pdihub.com/egp30/openshift-angularjs-quickstart.git",
+    "initial_git_url":"https://github.com/engapa/openshift-angularjs-quickstart.git",
     "provider":"partner",
-    "admin_tags":['angularjs','javascript']
+    "admin_tags":[]
     }}
