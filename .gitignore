@@ -3,6 +3,7 @@
 .*
 *~
 !.gitignore
+!.openshift/
 
 #Binaries
 target/
