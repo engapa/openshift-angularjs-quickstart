@@ -56,7 +56,7 @@ Quickstart available on web console (Only Administrator of PDI-OpenShift)
 In order to add this quickstart to available quickstarts on web console you should add this entry to file ''/etc/openshift/quickstarts.json'' 
 or in your REST service provider:
 
-```
+```json
   {"quickstart": {
     "id":"1",
     "href":"https://broker.ose.hi.inet/quickstarts/angularjs",
@@ -71,5 +71,4 @@ or in your REST service provider:
     "provider":"PDI",
     "admin_tags":[]
   }}
-
 ```
