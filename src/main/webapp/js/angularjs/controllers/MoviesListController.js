@@ -11,7 +11,7 @@ function MoviesListController($scope, $http) {
 		$scope.angular_version = data;
   });
    
-  //Combo box for ordering movies
+  //ComboBox for ordering movies
   $scope.orderField = "title";
   $scope.orderReverse = "true";
 }
