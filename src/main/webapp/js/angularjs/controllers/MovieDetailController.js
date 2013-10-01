@@ -10,7 +10,7 @@ function MovieDetailController($scope, $http, $routeParams) {
   
   $http.get('data/movies.json').success(function(data) {
 	  int incre = 1
-	  $scope.movie = data[1 + +$routeParams.movieId];
+	  $scope.movie = data[$routeParams.movieId + 1];
   });
  
 }
