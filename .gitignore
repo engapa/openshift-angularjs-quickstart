@@ -2,6 +2,7 @@
 /.*
 .*
 *~
+!.travis*
 !.git*
 !.openshift/
 

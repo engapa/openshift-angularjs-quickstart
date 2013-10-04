@@ -1,4 +1,4 @@
-PDI OpenShift - Tomcat+Angularjs Quickstart
+PDI OpenShift - Tomcat+Angularjs Quickstart  [![Build Status](https://travis-ci.org/engapa/openshift-angularjs-quickstart.png)](https://travis-ci.org/engapa/openshift-angularjs-quickstart)
 ===========================================
 ***
 
